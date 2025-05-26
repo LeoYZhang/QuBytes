@@ -4,5 +4,5 @@ Front-end facade for an imaginary quantum chip company.
 
 Features:
 - irregular clip path displays
-- transfrom hover effects
+- transform hover effects
 - infinite scroll objects in grid
