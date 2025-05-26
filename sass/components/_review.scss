@@ -1,0 +1,203 @@
+.review {
+    background-color: $color-background2;
+    border: 6px double $color-primary;
+    color: $color-grayLight1;
+    padding: 1rem;
+    position: relative;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    &::before {
+        content: "\201C";
+        line-height: 1;
+        font-size: 20rem;
+        font-family: sans-serif;
+        color: $color-primary;
+        opacity: .2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-2rem);
+    }
+
+    &__author {
+        font-size: 1.2rem;
+
+        &::before {
+            content: "~";
+        }
+    }
+
+    &--1 {
+        grid-column: 10 / 25;
+        grid-row: 30 / 45;
+    }
+
+    &--2 {
+        grid-column: 12 / 20;
+        grid-row: 3 / 10;
+    }
+
+    &--3 {
+        grid-column: 15 / 36;
+        grid-row: 15 / 33;
+    }
+
+    &--4 {
+        grid-column: 38 / 50;
+        grid-row: 35 / 50;
+    }
+
+    &--5 {
+        grid-column: 45 / 69;
+        grid-row: 20 / 40;
+    }
+
+    &--6 {
+        grid-column: 55 / 90;
+        grid-row: 1 / 15;
+    }
+
+    &--7 {
+        grid-column: 71 / 99;
+        grid-row: 33 / 48;
+    }
+
+    &--8 {
+        grid-column: 100 / 123;
+        grid-row: 12 / 34;
+    }
+
+    &--9 {
+        grid-column: 130 / 140;
+        grid-row: 5 / 15;
+    }
+
+    &--10 {
+        grid-column: 137 / 155;
+        grid-row: 31 / 40;
+    }
+
+    &--11 {
+        grid-column: 148 / 164;
+        grid-row: 2 / 22;
+    }
+
+    &--12 {
+        grid-column: 160 / 190;
+        grid-row: 25 / 51;
+    }
+
+    &--13 {
+        grid-column: 163 / 184;
+        grid-row: 4 / 15;
+    }
+
+    &--14 {
+        grid-column: 200 / 212;
+        grid-row: 26 / 32;
+    }
+
+    &--15 {
+        grid-column: 210 / 227;
+        grid-row: 10 / 18;
+    }
+
+    &--16 {
+        grid-column: 220 / 240;
+        grid-row: 25 / 42;
+    }
+
+    &--17 {
+        grid-column: 242 / 255;
+        grid-row: 2 / 12;
+    }
+
+    &--18 {
+        grid-column: 250 / 260;
+        grid-row: 22 / 45;
+    }
+
+    &--19 {
+        grid-column: 253 / 269;
+        grid-row: 11 / 20;
+    }
+
+    &--20 {
+        grid-column: 272 / 295;
+        grid-row: 6 / 27;
+    }
+
+    &--21 {
+        grid-column: 280 / 320;
+        grid-row: 32 / 44;
+    }
+
+    &--22 {
+        grid-column: 297 / 305;
+        grid-row: 12 / 22;
+    }
+
+    &--23 {
+        grid-column: 317 / 340;
+        grid-row: 23 / 34;
+    }
+
+    &--24 {
+        grid-column: 327 / 338;
+        grid-row: 10 / 17;
+    }
+
+    &--25 {
+        grid-column: 344 / 373;
+        grid-row: 28 / 37;
+    }
+
+    &--26 {
+        grid-column: 365 / 395;
+        grid-row: 4 / 24;
+    }
+
+    &--27 {
+        grid-column: 377 / 398;
+        grid-row: 32 / 43;
+    }
+
+    // COPIED FOR ANIMAION
+    &--28 {
+        grid-column: 410 / 425;
+        grid-row: 30 / 45;
+    }
+
+    &--29 {
+        grid-column: 412 / 420;
+        grid-row: 3 / 10;
+    }
+
+    &--30 {
+        grid-column: 415 / 436;
+        grid-row: 15 / 33;
+    }
+
+    &--31 {
+        grid-column: 438 / 450;
+        grid-row: 35 / 50;
+    }
+
+    &--32 {
+        grid-column: 445 / 469;
+        grid-row: 20 / 40;
+    }
+
+    &--33 {
+        grid-column: 455 / 490;
+        grid-row: 1 / 15;
+    }
+
+    &--34 {
+        grid-column: 471 / 499;
+        grid-row: 33 / 48;
+    }
+}

@@ -1,0 +1,13 @@
+header image:
+    https://www.ebay.com/itm/Pack-of-5-Aigo-120mm-12cm-Halo-Ring-Neon-BLUE-LED-Computer-PC-Case-Cooling-Fan-/273420356409
+
+products:
+    1: https://www.facebook.com/pccasegear/
+    2: https://news.softpedia.com/news/quantum-computing-is-complete-as-researchers-build-the-first-two-qubit-logic-in-silicon-494156.shtml
+    3: https://nypost.com/2017/03/09/ibm-made-an-entire-hard-drive-out-of-a-single-atom/?preview_id=10790552
+    4: https://windowsreport.com/fix-less-ram-than-installed/
+
+footer comapny images:
+    1: https://purepng.com/photo/29637/logos-amazon-logo
+    2: https://www.stickpng.com/img/icons-logos-emojis/tech-companies/ebay-logo
+    3: https://en.wikipedia.org/wiki/Newegg

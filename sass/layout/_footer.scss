@@ -1,0 +1,115 @@
+.footer {
+    background-color: $color-background2;
+    padding-top: 1rem;
+
+    &__logo {
+        display: block;
+        width: 17rem;
+        margin: 5rem auto;
+    }
+
+    &__shopAt {
+        margin: 3rem;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__storeBox {
+        height: 18rem;
+        background-color: $color-primaryDark;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__store {
+        display: block;
+        width: 28rem;
+        padding: 2rem;
+    }
+
+    &__productBox {
+        margin-top: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__productList {
+        list-style: none;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__productLabel {
+        margin-right: 5rem;
+        padding: 2rem;
+        background-color: $color-primaryDark;
+        color: $color-grayLight1;
+    }
+
+    &__product {
+        display: block;
+        padding: 0 2rem;
+        margin: 2rem 0;
+
+        &:not(:last-child) {
+            border-right: 1px solid $color-primary;
+        }
+
+        & a {
+            color: $color-grayLight1;
+            text-decoration: none;
+            transition: all .2s;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.legal {
+    font-size: 1rem;
+    padding: 0 2rem;
+    margin-top: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__copyright {
+        color: $color-grayLight1;
+    }
+
+    &__info {
+        list-style: none;
+
+        display: flex;
+
+    }
+
+    &__infoItem {
+        display: block;
+        padding: 0 2rem;
+        margin: 2rem 0;
+
+        &:not(:last-child) {
+            border-right: 1px solid $color-primary;
+        }
+
+        & a {
+            color: $color-grayLight1;
+            text-decoration: none;
+            transition: all .2s;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}

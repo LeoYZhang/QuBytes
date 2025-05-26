@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-grayLight1;
+}
+
+.heading1 {
+    font-size: 8rem;
+    padding: 4rem;
+
+    &__subText {
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-top: 3rem;
+    }
+}
+
+.heading2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-weight: 700;
+    padding: 3rem;
+    text-shadow: .5rem 1rem 1rem rgba($color-primary, .7);
+    
+    grid-column: 1 / -1;
+}
+
+.heading3 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: .5rem 1rem 1rem rgba($color-primary, .7);
+    align-self: center;
+}
+
+.divider {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after {
+        content: "";
+        width: 40%;
+        display: block;
+        border-top: 1px solid $color-primary;
+        margin: 0 2rem;
+    }
+}

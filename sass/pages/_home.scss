@@ -1,0 +1,41 @@
+.description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    margin: 8rem 3rem;
+
+    &__image {
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    &__paragraph {
+        color: $color-grayLight1;
+        line-height: 2.5rem;
+        padding: 1rem;
+    }
+}
+
+.features {
+    overflow-x: hidden;
+}
+
+.products {
+    margin-top: -5rem;
+}
+
+.reviews {
+    overflow-x: hidden;
+    margin-bottom: 5rem;
+
+    &__box {
+        width: 100%;
+        animation: moveReviews 60s linear infinite;
+
+        display: grid;
+        grid-template-columns: repeat(500, 1vw);
+        grid-template-rows: repeat(50, 1vw);
+    }
+}

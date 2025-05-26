@@ -1,0 +1,39 @@
+.nav {
+    background-color: $color-background2;
+    
+    display: flex;
+    align-items: center;
+
+    &__logoBox {
+        width: 20rem;
+        height: 4rem;
+        margin: 1rem;
+    }
+
+    &__logo {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    &__navigation {
+        display: grid;
+        grid-template-columns: repeat(6, max-content);
+    }
+
+    &__item {
+        list-style: none;
+        padding: 2rem;
+    }
+
+    &__link:link,
+    &__link:visited {
+        color: $color-grayLight1;
+        text-decoration: none;
+        transition: all .2s;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}

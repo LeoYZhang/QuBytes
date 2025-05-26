@@ -1,0 +1,19 @@
+.header {
+    height: calc(100vh - 6rem);
+    background-image: url(../img/headerBackground.jpg);
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        display: block;
+        width: 50rem;
+    }
+
+    &__image {
+        display: block;
+        width: 40%;
+        opacity: .9;
+    }
+}
