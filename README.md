@@ -1,4 +1,4 @@
-![Demo Picture](./demo.png)
+![Demo Picture](./screenshot.png)
 
 Front-end facade for an imaginary quantum chip company.
 
